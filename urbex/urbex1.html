@@ -1,0 +1,368 @@
+<!-- http://www.htmlgoodies.com/tutorials/forms/article.php/3888746/HTML-Forms-From-Basics-to-Style-Layouts.htm -->
+<!-- http://getbootstrap.com/getting-started/ -->
+<!-- http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-forms.php -->
+<!-- https://www.youtube.com/watch?v=LrlW7wFdC58 -->
+<!-- Glass effect: https://www.youtube.com/watch?v=3CoKnEuyMek -->
+<!--  Neem ook de locaties over van http://www.urbex.nl/site/map/ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Urbex map</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap -->
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <style type="text/css">
+    	h1{text-align: center; color: white;}
+    	h2{text-align: center; color: black;}
+    	/*body{background: rgb(52,73,94)}*/
+    	body{background: rgb(153, 161, 175)}
+    	.form-control{border-radius: 5px;}
+    	/*form{background:rgba(236, 236, 236, 0.98); padding:100%;border-radius:5px;box-shadow:0 0px 12px rgba(0,0,0,.74)}*/
+    	form{background:rgba(236, 236, 236, 0.98); border-radius:5px;box-shadow:0 0px 12px rgba(0,0,0,.74)}
+    	.btn{border-radius: 5)x; background: rgba(8,8,8,0.87); color: white; width: 100%;}
+    	input.radio { display: inline; }
+    </style>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<h1> Urbex map </h1>
+	    <div class="alert" id="errorMsg"></div>
+	</div>
+    <div class="row">
+    	<div class="col-sm-2">    		
+    		<div class="panel panel-default">
+				<div class="panel-heading">Filters</div>
+				<div class="panel-body">
+					<input class="radio" type="radio" name="radioVisited" value="all" checked="checked">All<br>
+				    <input class="radio" type="radio" name="radioVisited" value="visited">Visited<br>
+				    <input class="radio" type="radio" name="radioVisited" value="non-visited">Non-visited<br>
+					<hr size="30">
+					<input type="checkbox" name="chkType" value="All"       id="chkAll" checked>All<br>
+					<input type="checkbox" name="chkType" value="Bar"       id="chkBar">Bar<br>
+				    <input type="checkbox" name="chkType" value="Castle"    id="chkCastle" style="margin-right">Castle<br>
+				    <input type="checkbox" name="chkType" value="Cemetery"  id="chkCemetery">Cemetery<br>
+                    <input type="checkbox" name="chkType" value="Commercial" id="chkCommercial">Commercial<br>
+				    <input type="checkbox" name="chkType" value="Farm"      id="chkFarm">Farm<br>
+				    <input type="checkbox" name="chkType" value="Fermette"  id="chkFermette">Fermette<br>
+				    <input type="checkbox" name="chkType" value="Hospital"  id="chkHospital">Hospital<br>
+				    <input type="checkbox" name="chkType" value="Hotel"     id="chkHotel">Hotel<br>
+				    <input type="checkbox" name="chkType" value="Houses"    id="chkHouses">Houses<br>
+				    <input type="checkbox" name="chkType" value="Industry"  id="chkIndustry">Industry<br>
+				    <input type="checkbox" name="chkType" value="Leisure"   id="chkLeisure">Leisure<br>
+				    <input type="checkbox" name="chkType" value="Military"  id="chkMilitary">Military<br>
+				    <input type="checkbox" name="chkType" value="Mobility"  id="chkMobility">Mobility<br>
+				    <input type="checkbox" name="chkType" value="Prison"    id="chkPrison">Prison<br>
+				    <input type="checkbox" name="chkType" value="Religion"  id="chkReligion">Religion<br>
+                    <input type="checkbox" name="chkType" value="Resto"     id="chkResto">Resto<br>
+				    <input type="checkbox" name="chkType" value="School"    id="chkSchool">School<br>
+				    <input type="checkbox" name="chkType" value="Swimming"  id="chkSwimming">Swimming<br>
+                    <input type="checkbox" name="chkType" value="Transport" id="chkTransport">Transport<br>
+				    <input type="checkbox" name="chkType" value="Villa"     id="chkVilla">Villa<br>
+				    <input type="checkbox" name="chkType" value="Other"     id="chkOther">Other<br>
+				</div>
+			</div>
+    	</div>
+    	<div class="col-sm-10">
+	    	<div id="map" style="width:100%;height:500px"></div>
+    	</div>
+    	<div class="col-sm-10">
+    		 <table style="width:100%">
+			 	<tr>
+			 		<th>Nr</th>
+			    	<th>Name</th>
+			    	<th>Coordinates (Lat/Long)</th>
+			 	</tr>
+			 	<tr id="locationGridView">
+			 	</tr>
+			</table> 
+    	</div>
+    </div>
+</div>
+
+<script type="text/javascript">
+	var map;
+	var pinImage = "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|";
+	
+	const greenColor	= "7FFF00" ;
+	const redColor		= "FE7569" ;
+	
+	$(document).ready(function() {		
+		// Visited/non-visited/all changed
+	    $( 'input[ type=radio ][ name=radioVisited ]' ).change( function() {
+ 	    	var checkedTypes = typeFilter();
+ 	    	filterMarkers( this.value, checkedTypes );
+	    });
+	    
+		// Types changed
+		$( 'input[ type=checkbox ][ name=chkType ]' ).change( function() {
+			var radioVisited = $( 'input[ type=radio ][ name=radioVisited ]:checked' ).val()
+ 			var checkedTypes = typeFilter();
+ 			filterMarkers( radioVisited, checkedTypes );
+	    });
+	    
+		// Handle Type filter (checkboxes behaviour)
+	    $( 'input[ type=checkbox ][ name=chkType ]' ).click( function() {
+			if( this.value === "All" ) {
+				$( 'input[ type=checkbox ][ name=chkType ][ value!=All ]:checked' ).prop( "checked", false );
+			} else {
+				$( "#chkAll" ).prop( "checked", false );
+			}
+	    });
+	});
+	
+	// Get checked types in filter
+	function typeFilter()
+	{
+		var checkedTypes = [];
+		$( 'input[ type=checkbox ][ name=chkType ]:checked' ).each( function() {
+	        	checkedTypes.push( $(this).val() );
+	    });
+		return checkedTypes;
+	}
+	
+	function filterMarkers( radioVisited, chkTypeArr ) {
+		if( radioVisited == "all" ) {
+			map.data.setStyle( function( feature ){
+				  var visited = feature.getProperty( 'visited' );
+				  var type = feature.getProperty('type');
+				  // If "all" type is selected
+				  if( isInArray( 'All', chkTypeArr ) ) {
+					  return printMarker( visited, true );
+				  } else {
+					  // If specific type is selected
+					  if( isInArray( type, chkTypeArr ) ) {
+						  return printMarker( visited, true );
+					  } else {
+						  return printMarker( visited, false );
+					  }
+				  }
+			});
+		} else if ( radioVisited == "visited" ) {
+			map.data.setStyle( function( feature ){
+				  var visited = feature.getProperty( 'visited' );
+				  var type = feature.getProperty('type');
+				  if( visited === "false" ) {
+					  return printMarker( visited, false );
+				  } else {
+					  // If "all" type is selected
+					  if( isInArray( 'All', chkTypeArr ) ) {
+						  return printMarker( visited, true );
+					  } else {
+						  // If specific type is selected
+						  if( isInArray( type, chkTypeArr ) ) {
+							  return printMarker( visited, true );
+						  } else {
+							  return printMarker( visited, false );
+						  }
+					  }
+				  }
+			});
+		} else if ( radioVisited == "non-visited") {
+			map.data.setStyle( function( feature ){
+				  var visited = feature.getProperty( 'visited' );
+				  var type = feature.getProperty('type');
+				  if( visited === "false" ) {
+					  // If "all" type is selected
+					  if( isInArray( 'All', chkTypeArr ) ) {
+						  return printMarker( visited, true );
+					  } else {
+						  // If specific type is selected
+						  if( isInArray( type, chkTypeArr ) ) {
+							  return printMarker( visited, true );
+						  } else {
+							  return printMarker( visited, false );
+						  }
+					  } 
+				  } else {
+					  return printMarker( visited, false );
+				  } 
+			});
+		}
+	}
+	
+	function isInArray(value, array) {
+		  return array.indexOf(value) > -1;
+	}
+	
+	function printMarker( visited, visible )
+	{
+		if( visited === "false" ) {
+			var image = new google.maps.MarkerImage( "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + redColor,
+			        new google.maps.Size( 21, 34 ),
+			        new google.maps.Point( 0,0 ),
+			        new google.maps.Point( 10, 34 )
+		    ); 
+		} else {
+			var image = new google.maps.MarkerImage( "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + greenColor,
+			        new google.maps.Size( 21, 34 ),
+			        new google.maps.Point( 0,0 ),
+			        new google.maps.Point( 10, 34 )
+		  	);
+		}
+		
+		return {
+	        //icon: "https://maps.gstatic.com/mapfiles/ms2/micons/marina.png",
+	        icon: image,
+	        visible: visible,
+	        //clickable: true,
+	        //title: theaterName
+	      };  
+	}
+
+function myMap() {
+	  var myCenter = new google.maps.LatLng(51.13833, 5.59631);
+	  var mapCanvas = document.getElementById("map");
+	  var mapOptions = {center: myCenter, zoom: 7};
+	  map = new google.maps.Map(mapCanvas, mapOptions);
+	  //var marker = new google.maps.Marker({position:myCenter});
+	  //marker.setMap(map);
+	  
+// 	  var infowindow = new google.maps.InfoWindow({
+// 		    content: "Villa Doctoor"
+// 		  });
+// 		  infowindow.open(map,marker);
+
+// map = new google.maps.Map(document.getElementById('map'), {
+//     zoom: 4,
+//     center: {lat: -28, lng: 137}
+//   });
+
+	  map.data.loadGeoJson('data.json', null, function(features) {
+		    //console.log(features[0].f.name);
+		    var ctr = 1;
+		    $.each( features, function( index, value ) {
+		    	//$("#locationGridView").before("<tr><td>" + ctr + "</td><td>" + value.f.name + "</td></tr>");
+		    	//$("#locationGridView").before("<tr><td>" + ctr + "</td><td>" + value.f.name + "</td><td>" + value.b.b + "</td></tr>");
+		    	//console.log(value.f.name);
+		    	//console.log(value.b.b);
+		    	ctr++;
+	  		});
+	  });
+	  // Due to javascripts asynchronous nature. 
+	  setTimeout(function() {
+		  var ctr = 1;
+		  map.data.forEach(function(feature){
+				//console.log(feature.getGeometry().get().lat());
+				//console.log(feature.getProperty('name'));
+				$("#locationGridView").before("<tr><td>" + ctr + "</td><td>" + feature.getProperty('name') + "</td><td>" + feature.getGeometry().get().lat() + " , " + feature.getGeometry().get().lng() + "</td></tr>");
+				//console.log(feature.getProperty('visited'));
+				//console.log(feature.getGeometry());
+				ctr++;
+			});
+		
+		  var radioVisited = $('input[type=radio][name=radioVisited]:checked, input[type=checkbox][name=chkType] ').val();
+		  var checkedTypes = [];
+	        $('input[type=checkbox][name=chkType]:checked').each(function() {
+	        	checkedTypes.push($(this).val());
+	        });
+	        //console.log(checkedTypes);
+		  filterMarkers( radioVisited, checkedTypes );
+	  }, 500);
+	  
+	  
+// 	  map.data.setStyle(function(feature) {
+// 		  //console.log(feature.getProperty('name'));
+// 	  });
+
+	// global infowindow
+	  var infowindow = new google.maps.InfoWindow();
+
+	  // When the user clicks, open an infowindow
+	  map.data.addListener('click', function(event) {
+		  console.log(event.feature.getGeometry());
+		  var contentString = '<div id="content">'+
+	          '<div id="siteNotice">'+
+	          '</div>'+
+	          '<h2 id="firstHeading" class="firstHeading">' + event.feature.getProperty("name") + '</h1>'+
+	          '<div id="bodyContent">'+
+	          //'<p><b>Coordinates</b>: Lat ' + value.lat + '&nbsp&nbsp Lng ' + value.lng + '</p>'+
+	          '<p><b>Coordinates</b>: ' + event.feature.getGeometry().get() + '</p>'+
+	          ( event.feature.getProperty( "address" ) != "" ? '<p><b>Address</b>: ' +  event.feature.getProperty( "address" ) + '</p>' : "" ) +
+	          ( event.feature.getProperty( "description" ) != "" ? '<p><b>Description</b>: ' + event.feature.getProperty( "description" ) + '</p>' : "" ) +
+	          ( event.feature.getProperty( "state" ) != "" ? '<p><b>State</b>: ' + event.feature.getProperty( "state" ) + '</p>' : "" ) +
+	          ( event.feature.getProperty( "link" ) != "" ? '<p><b>Link</b>: <a href="' + event.feature.getProperty( "link" ) + '">' + event.feature.getProperty( "link" ) + '</a></p>' : "" ) +
+	          '</div>'+
+	          '</div>';
+	      infowindow.setContent( contentString );
+	      infowindow.setPosition( event.feature.getGeometry().get() );
+	      infowindow.setOptions( { pixelOffset: new google.maps.Size( 0,-30) } );
+	      infowindow.open( map );
+	  });
+		 
+
+	  //http://stackoverflow.com/questions/23814197/creating-infowindows-on-features-loaded-via-loadgeojson
+	
+// 	  map.data.setStyle(function(feature){
+		  
+// 	  });
+	  
+	  
+}
+
+	function myMap2( radio = null) {
+//TODO ILO: ga verder met het implementeren van de "radio". Kies welke je toont op het scherm.
+		var infowindow = null;
+		var myCenter = new google.maps.LatLng(50.50, 4.00);
+		var mapCanvas = document.getElementById("map");
+		var mapOptions = {center: myCenter, zoom: 8};
+		map = new google.maps.Map(mapCanvas, mapOptions);		
+		
+		$.getJSON( "data2.json", function( json ) {
+			$.each( json.locations, function( index, value ) {
+				var myCenter = new google.maps.LatLng( value.lat, value.lng );
+				var pinColor = "FE7569";
+				if( value.visited === "true" ) {
+					pinColor = "7FFF00";
+				}
+			    var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + pinColor,
+			        new google.maps.Size(21, 34),
+			        new google.maps.Point(0,0),
+			        new google.maps.Point(10, 34)
+			    );
+				var marker = new google.maps.Marker( { 
+					position: myCenter,
+					title	: value.name,
+					icon	: pinImage
+				} );
+				marker.setMap( map );
+				
+		 		marker.addListener('click', function() {
+		 			if (infowindow) {
+		 		        infowindow.close();
+		 		    }
+		 			
+		 			var contentString = '<div id="content">'+
+			            '<div id="siteNotice">'+
+			            '</div>'+
+			            '<h2 id="firstHeading" class="firstHeading">' + value.name + '</h1>'+
+			            '<div id="bodyContent">'+
+			            '<p><b>Coordinates</b>: Lat ' + value.lat + '&nbsp&nbsp Lng ' + value.lng + '</p>'+
+			            ( value.address != "" ? '<p><b>Address</b>: ' +  value.address + '</p>' : "" ) +
+			            ( value.description != "" ? '<p><b>Description</b>: ' + value.description + '</p>' : "" ) +
+			            ( value.state != "" ? '<p><b>State</b>: ' + value.state + '</p>' : "" ) +
+			            ( value.link != "" ? '<p><b>Link</b>: <a href="' + value.link + '">' + value.link + '</a></p>' : "" ) +
+			            '</div>'+
+			            '</div>';
+		 			infowindow = new google.maps.InfoWindow({
+						content: contentString
+		 			});
+		 	        infowindow.open(map, marker);
+		 	    });
+
+			});
+		});
+	
+	}
+	
+</script>
+
+<script async defer
+ src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+</body>
+</html>

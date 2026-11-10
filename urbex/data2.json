@@ -1,0 +1,49 @@
+{
+	"locations":
+	[
+    	{
+    		"lat"			: "51.13833",
+    		"lng"			: "5.59631",
+    		"address"		: "Bree",
+    		"name"			: "Villa Doctoor",
+    		"description"	: "Dit is de uitleg over Villa Doctoor",
+    		"link"			: "",
+    		"visited"		: "false",
+    		"state"			: "Vervallen",
+    		"type"			: "Villa"
+    	},
+    	{
+    		"lat"			: "51.11316",
+    		"lng"			: "4.37276",
+    		"address"		: "",
+    		"name"			: "Chateau du Dragon",
+    		"description"	: "Dit is de uitleg over Chateau du Dragon",
+    		"link"			: "https://www.youtube.com/watch?v=V31cZbNRnDQ",
+    		"visited"		: "false",
+    		"state"			: "",
+    		"type"			: "Castle"
+    	},
+    	{
+    		"lat"			: "50.45133",
+    		"lng"			: "3.48199",
+    		"address"		: "",
+    		"name"			: "Factory P",
+    		"description"	: "",
+    		"link"			: "",
+    		"visited"		: "false",
+    		"state"			: "",
+    		"type"			: "Factory"
+    	},
+    	{
+    		"lat"			: "50.22249",
+    		"lng"			: "4.98989",
+    		"address"		: "Chaussée Romaine, Dinant",
+    		"name"			: "Chateau de Noisy",
+    		"description"	: "",
+    		"link"			: "",
+    		"visited"		: "true",
+    		"state"			: "Demolished",
+    		"type"			: "Castle"
+    	}
+	]
+}

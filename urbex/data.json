@@ -1,0 +1,4717 @@
+﻿{ 
+	"type": "FeatureCollection",
+    "crs": {
+    	"type": "name",
+    	"properties": {
+        	"name": "EPSG:4326"
+    	}
+	},
+	"features":
+	[
+      	{ 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 5.59631, 51.13833 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Doctoor",
+    			"visited"       : "false",
+    			"address"		: "Bree",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 4.21766, 51.12442 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Klodderkes",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 6.408113, 51.786514 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Muhr",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 4.828487, 50.982194 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Onder Ons",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 11.270058, 50.678379 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Schwarza",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 3.88865, 50.84198 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Stockmans",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 3.23165, 51.20864 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Venetia",
+    			"visited"       : "true",
+    			"address"		: "Witteleertouwersstraat 1a, 8000 Brugge",
+	    		"description"	: "D'Hanins de Moerkerke",
+	    		"link"			: "https://inventaris.onroerenderfgoed.be/erfgoedobjecten/82257",
+	    		"state"			: "In renovation",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 6.800480, 51.434390 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Beethoven",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 3.98405, 51.18718 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Bospoeper",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 5.88487, 50.50176 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa BMW",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 4.23887, 50.7312 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Chopin",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 8.43786, 45.12745 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Dante",
+    			"visited"       : "false",
+    			"address"		: "Italy",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 4.20371, 50.90768 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Déjà Vu",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 6.25454, 48.82503 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Denis",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 4.828487, 50.982194 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Onder Ons",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 4.46384, 51.46566 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Gammel Dame",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 4.366774, 51.333309 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Grammofoon",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 3.99601, 50.94256 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Heil",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 11.54848, 51.53747 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Idla",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 4.83268, 51.05983 ]
+    		 },
+    		"properties": {
+    			"name"          : "Villa Janssens",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Villa"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 1.74868, 49.88376 ]
+    		 },
+    		"properties": {
+    			"name"          : "Chateau Sanglier",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 0.65676, 49.23277 ]
+    		 },
+    		"properties": {
+    			"name"          : "Chateau Sous les Nuages",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 2.66281, 48.8804 ]
+    		 },
+    		"properties": {
+    			"name"          : "Chateau Torcy",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 2.66139, 48.88485 ]
+    		 },
+    		"properties": {
+    			"name"          : "Chateau Verdure",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 6.21913, 48.98814 ]
+    		 },
+    		"properties": {
+    			"name"          : "Chateau Volt Face",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 1.74868, 49.88376 ]
+    		 },
+    		"properties": {
+    			"name"          : "Chateau Sanglier",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+    		}
+        },
+		{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.37276, 51.11316 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau du Dragon",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "https://www.youtube.com/watch?v=V31cZbNRnDQ",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.25794, 50.05464 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau Volt",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.450225, 51.041258 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau VP",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.76737, 51.1762 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau 't Goorhof",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.209935, 50.722177 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau Hasselbroek",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.99419, 50.8952 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau Hoogemeyer",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.30288, 50.75664 ]
+    		},
+    		"properties": {
+    			"name"          : "Kasteel van Heers",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.76055, 51.08295 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau de la Chapelle",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.62966, 49.19359 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau de Mont-L'Evêque",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.98989, 50.22249]
+    		},
+    		"properties": {
+    			"name"          : "Chateau de Noisy",
+    			"visited"       : "false",
+				"address"		: "Chaussée Romaine, Dinant",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"visited"		: "true",
+	    		"state"			: "Demolished",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.59617, 50.48675 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau de l'Ermitage",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.63604, 51.08352 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau des Lions",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.2082, 50.82799 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau Lowenherz",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 13.40778, 52.69374 ]
+    		},
+    		"properties": {
+    			"name"          : "Schloss Dammsmühle",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 12.79692, 52.97916 ]
+    		},
+    		"properties": {
+    			"name"          : "Schloss Gentzrode",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 7.011879, 48.176092 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau de Plainfaing",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.86192, 48.70609 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau des Anges Perdus",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.90917, 48.75379 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau des Faisans",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 1.59728, 49.21072 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau des Singes",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.76014, 50.94301 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau Lierre",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.48824, 50.00568 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau Martin le Pecheur",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.98531, 50.96772 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau Mécène",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.94605, 49.54624 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau Mennechet",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.57396, 50.84809 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau Mouton",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.55483, 51.32445 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau Nottebohm",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "Demolished",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.87234, 46.61682 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau du Chêne",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.29928, 50.61814 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau du Chien",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.19019, 50.90682 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau du Loup",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.29367, 49.99215 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau du Procureur",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.70999, 44.95434 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau Helix",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.99951, 51.0148 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau Hohner",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.763853, 51.003251 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau Le Moineaudière",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.58176, 50.53609 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau de Bitremont",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.48041, 50.00604 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau de Contay",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.55777, 50.42763 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau de Farciennes",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.63161, 50.62945 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau de Grandmetz",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.71378, 50.60613 ]
+    		},
+    		"properties": {
+    			"name"          : "Chateau de la Forêt",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 2.76265, 49.7246 ]
+    		 },
+    		"properties": {
+    			"name"          : "Fermette L'Orangerie",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Fermette"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": { 
+    			"type":        "Point",
+    			"coordinates": [ 2.972854, 50.612120 ]
+    		 },
+    		"properties": {
+    			"name"          : "Hôpital Jean de Luxembourg",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+    		}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.48199, 50.45133]
+    		},
+    		"properties": {
+    			"name"          : "Factory P",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 6.193350, 51.233743]
+    		},
+    		"properties": {
+    			"name"          : "Sunshine Factory",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.468884, 51.033503 ]
+    		},
+    		"properties": {
+    			"name"          : "Piscine Crachoir",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Swimming"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.003934, 50.757040 ]
+    		},
+    		"properties": {
+    			"name"          : "Piscine de la Lys",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Swimming"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.83918, 50.50842 ]
+    		},
+    		"properties": {
+    			"name"          : "Piscine Mai",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Swimming"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.4777, 50.39246 ]
+    		},
+    		"properties": {
+    			"name"          : "Piscine Mosq",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Swimming"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.32272, 50.04894 ]
+    		},
+    		"properties": {
+    			"name"          : "Piscine Toboggan Rouge",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Swimming"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 6.76655, 51.49795 ]
+    		},
+    		"properties": {
+    			"name"          : "Stadtbad Duisburg",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Swimming"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.30034, 50.23633 ]
+    		},
+    		"properties": {
+    			"name"          : "Tour de la Famenne",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Swimming"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 13.526891, 52.776820 ]
+    		},
+    		"properties": {
+    			"name"          : "Wilhelm Pieck",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Other"
+			}
+        },
+        { 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 6.42111, 50.20469 ]
+    		},
+    		"properties": {
+    			"name"          : "The Dentist",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Other"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.757987, 50.935156 ]
+    		},
+    		"properties": {
+    			"name"          : "'t Convent",
+    			"visited"       : "true",
+    			"address"		: "Halve Reningestraat 1, 8647 Reninge",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "Abandoned",
+	    		"type"			: "Resto"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.998624, 51.257846 ]
+    		},
+    		"properties": {
+    			"name"          : "Atlantis",
+    			"visited"       : "true",
+    			"address"		: "Torenhofstraat 2, 8420 De Haan",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "Demolished",
+	    		"type"			: "Hotel"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.709444, 50.504420 ]
+    		},
+    		"properties": {
+    			"name"          : "Little Green House",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.104699, 51.560053 ]
+    		},
+    		"properties": {
+    			"name"          : "Rainbow Church",
+    			"visited"       : "false",
+    			"address"		: "The Netherlands",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Church"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.427197, 50.941775 ]
+    		},
+    		"properties": {
+    			"name"          : "Koeltorens Vilvoorde",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.349940, 51.082356 ]
+    		},
+    		"properties": {
+    			"name"          : "Sint-Pietersveld",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Cemetary"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.091622, 51.195167 ]
+    		},
+    		"properties": {
+    			"name"          : "Maison Sable",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 7.04821, 51.63901 ]
+    		},
+    		"properties": {
+    			"name"          : "Zeche P",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.003934, 50.757040 ]
+    		},
+    		"properties": {
+    			"name"          : "Piscine de la lys",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Swimming"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ -4.000548, 40.744256 ]
+    		},
+    		"properties": {
+    			"name"          : "Sanatorio de la Barranca",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 6.771411, 51.423793 ]
+    		},
+    		"properties": {
+    			"name"          : "Güterbahnhof",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Transport"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 6.771411, 51.423793 ]
+    		},
+    		"properties": {
+    			"name"          : "Güterbahnhof",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Transport"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.193699, 51.196388 ]
+    		},
+    		"properties": {
+    			"name"          : "Dairco Daikin",
+    			"visited"       : "true",
+    			"address"		: "Alfons Wybolaan 21, 8200 Sint-Andries",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "Abandoned",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.83473, 51.00167 ]
+    		},
+    		"properties": {
+    			"name"          : "Bowling Mill",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Leisure"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.546376, 51.271525 ]
+    		},
+    		"properties": {
+    			"name"          : "Cassablanca",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Leisure"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 1.05784, 49.44543 ]
+    		},
+    		"properties": {
+    			"name"          : "Chai à Vin",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.406339, 51.219206 ]
+    		},
+    		"properties": {
+    			"name"          : "Chambre De Commerce",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "Renovation",
+	    		"type"			: "Commercial"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.48177, 51.21115 ]
+    		},
+    		"properties": {
+			"name" 		: "Chateau Boterlaer",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.33358, 49.10708 ]
+    		},
+    		"properties": {
+			"name" 		: "Chateau de Carnelle",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.63161, 50.62945 ]
+    		},
+    		"properties": {
+			"name" 		: "Chateau de Grandmetz",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.62847, 49,77432 ]
+    		},
+    		"properties": {
+			"name" 		: "Chateau Sécession",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.585, 50.64681 ]
+    		},
+    		"properties": {
+			"name" 		: "Ghost Bus Tunnel",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Mobility"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.11961, 50.8129 ]
+    		},
+    		"properties": {
+			"name" 		: "Heilig Hart Ziekenhuis",
+    			"visited"       : "true",
+    			"address"		: "Bruggestraat 519,8930 Menen",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "Demolished",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.251354, 50.802183 ]
+    		},
+    		"properties": {
+			"name" 		: "Hotel C",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hotel"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.83369, 50.87334 ]
+    		},
+    		"properties": {
+			"name" 		: "Jezuitenklooster",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Religion"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.76737, 51.1762 ]
+    		},
+    		"properties": {
+			"name" 		: "Kasteel 't Goorhof",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Chateau"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.95714, 51.05207 ]
+    		},
+    		"properties": {
+			"name" 		: "Kingswood Klooster",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Religion"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.874745, 51.000632 ]
+    		},
+    		"properties": {
+			"name" 		: "KTA Wetteren",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "School"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.80666, 50.90308 ]
+    		},
+    		"properties": {
+			"name" 		: "Maison Gobbelsrode",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.8746, 50.49342 ]
+    		},
+    		"properties": {
+			"name" 		: "Maison Kakelbont",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.158595, 51.051575 ]
+    		},
+    		"properties": {
+			"name" 		: "Maison Pierre",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.00032, 50.62068 ]
+    		},
+    		"properties": {
+			"name" 		: "Prison H15",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Prison"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.52086, 50.99701 ]
+    		},
+    		"properties": {
+			"name" 		: "Sick Hospital",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 6.751115, 51.473643 ]
+    		},
+    		"properties": {
+			"name" 		: "Sinterlange",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 6.30806, 51.20952 ]
+    		},
+    		"properties": {
+			"name" 		: "Sint-Jozefsheim",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.88888, 50.60251 ]
+    		},
+    		"properties": {
+			"name" 		: "Usine S",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 0.94551, 49.53939 ]
+    		},
+    		"properties": {
+			"name" 		: "Usine B",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.57547, 50.61436 ]
+    		},
+    		"properties": {
+			"name" 		: "Val Benoit",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "School"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.0869, 51.21924 ]
+    		},
+    		"properties": {
+			"name" 		: "Farm 1881",
+    			"visited"       : "true",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "Abandoned",
+	    		"type"			: "Farm"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.81452, 51.21065 ]
+    		},
+    		"properties": {
+			"name" 		: "Farm Paternoster",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Farm"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.68822, 51.24372 ]
+    		},
+    		"properties": {
+			"name" 		: "Fermette sint Mann",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Fermette"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.229734, 50.890256 ]
+    		},
+    		"properties": {
+			"name" 		: "Tapioca Farm",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Farm"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.879206, 50.592481 ]
+    		},
+    		"properties": {
+			"name" 		: "Prison H11",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Prison"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.00032, 50.62068 ]
+    		},
+    		"properties": {
+			"name" 		: "Prison H15",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Prison"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 6.78348, 51.25048 ]
+    		},
+    		"properties": {
+			"name" 		: "Prison H19",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Prison"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.740199, 51.113879 ]
+    		},
+    		"properties": {
+			"name" 		: "Cafe De Vos",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Bar"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 6.26882, 49.78757 ]
+    		},
+    		"properties": {
+			"name" 		: "Cafe G",
+    			"visited"       : "false",
+    			"address"		: "Luxemburg",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Bar"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.45022, 51.17024 ]
+    		},
+    		"properties": {
+			"name" 		: "Cafe Ons Moe",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Bar"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.86567, 50.20307 ]
+    		},
+    		"properties": {
+			"name" 		: "Grand Hotel Regnier",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hotel"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.56763, 50.67009 ]
+    		},
+    		"properties": {
+			"name" 		: "Honoré",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Chateau"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.88507, 50.50358 ]
+    		},
+    		"properties": {
+			"name" 		: "Hotel du Golf",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hotel"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.7617, 50.78732 ]
+    		},
+    		"properties": {
+			"name" 		: "Hotel Kosmos",
+    			"visited"       : "true",
+    			"address"		: "",
+	    		"description"	: "Dranouter, Belgium Built in 1934 Abandoned in 2002 Visited on 08 2007. This family park in the south of Belgium was abandoned in 2002. The hotel and swimming pool were famous recreation",
+	    		"link"			: "",
+	    		"state"			: "Abandoned",
+	    		"type"			: "Hotel"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.4557, 51.01974 ]
+    		},
+    		"properties": {
+			"name" 		: "Swamp Hotel",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hotel"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.74684, 51.11562 ]
+    		},
+    		"properties": {
+			"name" 		: "Centrales Electriques des Flandres",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.0691, 51.0099 ]
+    		},
+    		"properties": {
+			"name" 		: "Cichorei Heyvaert",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.049957, 50.928377 ]
+    		},
+    		"properties": {
+			"name" 		: "Du Parc",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.40002, 51.24246 ]
+    		},
+    		"properties": {
+			"name" 		: "Factory G",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.68199, 50.45133 ]
+    		},
+    		"properties": {
+			"name" 		: "Factory P",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.19106, 50.80528 ]
+    		},
+    		"properties": {
+			"name" 		: "Filature Impressionante",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "Weverij",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.67078, 50.68094 ]
+    		},
+    		"properties": {
+			"name" 		: "Hasard",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.6576, 50.6899 ]
+    		},
+    		"properties": {
+			"name" 		: "Heavy Metal",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.50574, 50.60685 ]
+    		},
+    		"properties": {
+			"name" 		: "HF6",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.411950, 50.412246 ]
+    		},
+    		"properties": {
+			"name" 		: "Koeltoren Charleroi II",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.38051, 50.39276 ]
+    		},
+    		"properties": {
+			"name" 		: "Koeltoren Powerplant IM",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.427197, 50.941775 ]
+    		},
+    		"properties": {
+			"name" 		: "Koeltorens Vilvoorde",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.779491, 44.924160 ]
+    		},
+    		"properties": {
+			"name"		: "Koolmijn Susville",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.93414, 50.61467 ]
+    		},
+    		"properties": {
+			"name"		: "Lavoir et Carbonisage de Dolhain",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.05893, 50.6721 ]
+    		},
+    		"properties": {
+			"name"		: "Les Grands Moulins de Paris",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.35361, 51.19893 ]
+    		},
+    		"properties": {
+			"name"		: "Petrol Antwerp",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.49036, 50.78319 ]
+    		},
+    		"properties": {
+			"name"		: "Powerplant XL",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.60596, 50.84976 ]
+    		},
+    		"properties": {
+			"name"		: "Saffre Fréres",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.36472, 51.06283 ]
+    		},
+    		"properties": {
+			"name"		: "Usine De Naeyer",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.69326, 50.57063 ]
+    		},
+    		"properties": {
+			"name"		: "Usine M",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.61427, 50.13092 ]
+    		},
+    		"properties": {
+			"name"		: "Usine PRB",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.88888, 50.60251 ]
+    		},
+    		"properties": {
+			"name"		: "Usine S",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.598640, 50.713650 ]
+    		},
+    		"properties": {
+			"name"		: "Usine W",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.4818, 50.5926 ]
+    		},
+    		"properties": {
+			"name"		: "Val Saint Lambert",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.29418, 50.50984 ]
+    		},
+    		"properties": {
+			"name"		: "Chateau Bambi",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.4288, 49.91287 ]
+    		},
+    		"properties": {
+			"name"		: "Chateau BD",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.26261, 50.44455 ]
+    		},
+    		"properties": {
+			"name"		: "Chateau Congo",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.107520, 50.492288 ]
+    		},
+    		"properties": {
+			"name"		: "Chateau D' Ah",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 6.33015, 47.51227 ]
+    		},
+    		"properties": {
+			"name"		: "Chateau D'As",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.40225, 48.64094 ]
+    		},
+    		"properties": {
+			"name"		: "Chateau d'Orangis",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.17378, 50.79922 ]
+    		},
+    		"properties": {
+			"name"		: "Chateau Rochendael",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.66855, 50.67877 ]
+    		},
+    		"properties": {
+			"name"		: "Chateau Sarolea",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Castle"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.579870, 51.131939 ]
+    		},
+    		"properties": {
+			"name"		: "Monastère Mont G",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Religion"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.553483, 50.997608 ]
+    		},
+    		"properties": {
+			"name"		: "Ravenstein",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Religion"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.89469, 51.17538 ]
+    		},
+    		"properties": {
+			"name"		: "Sint-Anna Klooster",
+    			"visited"       : "false",
+    			"address"		: "The Netherlands",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Religion"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.809683, 50.899836 ]
+    		},
+    		"properties": {
+			"name"		: "Chez Mamounette",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.82542, 50.260333 ]
+    		},
+    		"properties": {
+			"name"		: "Instituteur Chasseur Artist",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.42168, 51.22695 ]
+    		},
+    		"properties": {
+			"name"		: "Maison Blanc",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.80527, 50.87789 ]
+    		},
+    		"properties": {
+			"name"		: "Maison Boon",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.75814, 50.94691 ]
+    		},
+    		"properties": {
+			"name"		: "Maison Dave",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.89632, 50.48753 ]
+    		},
+    		"properties": {
+			"name"		: "Maison De La Dessinatrice",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.27074, 51.20808 ]
+    		},
+    		"properties": {
+			"name"		: "Maison de la Douche",
+    			"visited"       : "true",
+    			"address"		: "Puienbroeklaan, Sint-Kruis",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "Abandoned",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.293659, 51.187207 ]
+    		},
+    		"properties": {
+			"name"		: "Abandoned car in a shed",
+    			"visited"       : "false",
+    			"address"		: "Bruggestraat 231, Oedelem",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "Abandoned",
+	    		"type"			: "Transport"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.22264, 51.12696 ]
+    		},
+    		"properties": {
+			"name"		: "Maison du Cerf",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.03018, 50.86688 ]
+    		},
+    		"properties": {
+			"name"		: "Maison Felix",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.94058, 50.92893 ]
+    		},
+    		"properties": {
+			"name"		: "Maison Fien",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.282177, 51.219835 ]
+    		},
+    		"properties": {
+			"name"		: "Maison GB",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.963808, 49.580472 ]
+    		},
+    		"properties": {
+			"name"		: "Maison Kirsch",
+    			"visited"       : "false",
+    			"address"		: "Luxemburg",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.96192, 51.3212 ]
+    		},
+    		"properties": {
+			"name"		: "Maison Mierlo",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.36361, 50.34642 ]
+    		},
+    		"properties": {
+			"name"		: "Maison Orangina",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.928624, 50.332246 ]
+    		},
+    		"properties": {
+			"name"		: "Maison Popeye",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.14669, 50.95882 ]
+    		},
+    		"properties": {
+			"name"		: "Maison Radio",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.63152, 50.97566 ]
+    		},
+    		"properties": {
+			"name"		: "Maison Sven",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.2788, 50.77878 ]
+    		},
+    		"properties": {
+			"name"		: "Maison Viron",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.961010, 50.484262 ]
+    		},
+    		"properties": {
+			"name"		: "Maison Vivier",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.1812, 50.77242 ]
+    		},
+    		"properties": {
+			"name"		: "Old Mill",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.90788, 50.68953 ]
+    		},
+    		"properties": {
+			"name"		: "Agnus Dei",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 10.556700, 51.873912 ]
+    		},
+    		"properties": {
+			"name"		: "Haus der Anatomie",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 11.61708, 51.60476 ]
+    		},
+    		"properties": {
+			"name"		: "Henriettes Erbe",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.36491, 50.36046 ]
+    		},
+    		"properties": {
+			"name"		: "Hospital Vésale",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 11.588884, 51.837281 ]
+    		},
+    		"properties": {
+			"name"		: "Medical Train",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.96882, 50.96776 ]
+    		},
+    		"properties": {
+			"name"		: "Psy Monastery",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 8.60036, 45.98051 ]
+    		},
+    		"properties": {
+			"name"		: "Red Cross Hospital",
+    			"visited"       : "false",
+    			"address"		: "Italy",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.776882, 50.854983 ]
+    		},
+    		"properties": {
+			"name"		: "Salve Mater",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.9237, 50.61148 ]
+    		},
+    		"properties": {
+			"name"		: "Sanatorium de Dolhain",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.4911, 49.31776 ]
+    		},
+    		"properties": {
+			"name"		: "Sanatorium de la Fôret",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.85746, 50.43191 ]
+    		},
+    		"properties": {
+			"name"		: "Sanatorium du Basil",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 13.16678, 52.37616 ]
+    		},
+    		"properties": {
+			"name"		: "Sanatorium Elisabeth",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 13.32487, 53.20227 ]
+    		},
+    		"properties": {
+			"name"		: "Sanatorium Hohenlychen",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.4911, 49.31776 ]
+    		},
+    		"properties": {
+			"name"		: "Sanatorium de la Forêt",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 7.67899, 44.7641 ]
+    		},
+    		"properties": {
+			"name"		: "Manicomio di R.",
+    			"visited"       : "false",
+    			"address"		: "Italy",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.80822, 50.87111 ]
+    		},
+    		"properties": {
+			"name"		: "The Green School",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "School"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.21934, 50.44089 ]
+    		},
+    		"properties": {
+			"name"		: "Chapelle des Mineurs",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Religion"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.47347, 50.63852 ]
+    		},
+    		"properties": {
+			"name"		: "Church of Decay",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Religion"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.493712, 50.413191 ]
+    		},
+    		"properties": {
+			"name"		: "Church of Raven",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Religion"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.6655, 50.92568 ]
+    		},
+    		"properties": {
+			"name"		: "Insane Cemetary",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Religion"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.22271, 51.17551 ]
+    		},
+    		"properties": {
+			"name"		: "Leyselehof",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Religion"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.32457, 50.44966 ]
+    		},
+    		"properties": {
+			"name"		: "The Gravestone Church",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Religion"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.63242, 48.51829 ]
+    		},
+    		"properties": {
+			"name"		: "Abbaye Royale Notra-Dame",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Religion"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.33185, 50.36559 ]
+    		},
+    		"properties": {
+			"name"		: "Abbaye d'Aulne",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Religion"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.436614, 50.438424 ]
+    		},
+    		"properties": {
+			"name"		: "Cinema Varia",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Leisure"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.5362, 50.60789 ]
+    		},
+    		"properties": {
+			"name"		: "Theater Jeusette",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Leisure"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.343610, 51.137052 ]
+    		},
+    		"properties": {
+			"name"		: "L'Ecole Hemiksem",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "School"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.865324, 50.590374 ]
+    		},
+    		"properties": {
+			"name"		: "Lycée V",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "School"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 7.02172, 48.84849 ]
+    		},
+    		"properties": {
+			"name"		: "Pensionnat Providence",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "School"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.56743, 50.63925 ]
+    		},
+    		"properties": {
+			"name"		: "Pritzer Fac",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "School"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.27418, 49.84451 ]
+    		},
+    		"properties": {
+			"name"		: "Gare Bertrix",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Transport"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.17844, 51.02893 ]
+    		},
+    		"properties": {
+			"name"		: "Gare Patron Rouge",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Transport"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.744555, 51.082411 ]
+    		},
+    		"properties": {
+			"name"		: "Loco Farman",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Transport"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.46507, 50.41077 ]
+    		},
+    		"properties": {
+			"name"		: "Metro Chet",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Transport"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.71658, 50.88926 ]
+    		},
+    		"properties": {
+			"name"		: "Oriënt Express",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Transport"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.38839, 50.43699 ]
+    		},
+    		"properties": {
+			"name"		: "Remise Monceau",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Transport"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.95538, 50.72105 ]
+    		},
+    		"properties": {
+			"name"		: "Station Montzen",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Transport"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.843575, 51.063908 ]
+    		},
+    		"properties": {
+			"name"		: "Hof ter Borght",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.42933, 50.46363 ]
+    		},
+    		"properties": {
+			"name"		: "Manoir aux Marionnettes",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.93236, 50.39769 ]
+    		},
+    		"properties": {
+			"name"		: "Manoir aux portraits",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.85917, 50.19871 ]
+    		},
+    		"properties": {
+			"name"		: "Manoir aux Statues",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.862081, 48.489864 ]
+    		},
+    		"properties": {
+			"name"		: "Manoir Colimaçon",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.78422, 50.28953 ]
+    		},
+    		"properties": {
+			"name"		: "Manoir du Mont",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.72597, 48.87251 ]
+    		},
+    		"properties": {
+			"name"		: "Manoir L'Octogone",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.21281, 50.15805 ]
+    		},
+    		"properties": {
+			"name"		: "Manoir von Duchess",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.20892, 50.73145 ]
+    		},
+    		"properties": {
+			"name"		: "Mansion of the Bride",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 8.34448, 44.33427 ]
+    		},
+    		"properties": {
+			"name"		: "Palazzo Bordoni",
+    			"visited"       : "false",
+    			"address"		: "Italy",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.87883, 51.32259 ]
+    		},
+    		"properties": {
+			"name"		: "Pastorie 't Hof",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.166588, 51.172672 ]
+    		},
+    		"properties": {
+			"name"		: "Villa 19",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 7.24378, 48.15215 ]
+    		},
+    		"properties": {
+			"name"		: "Villa 1902",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 6.79716, 48.14531 ]
+    		},
+    		"properties": {
+			"name"		: "Villa Amelie",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.003934, 50.757040 ]
+    		},
+    		"properties": {
+			"name"		: "Piscine de la Lys",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Swimming"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.777698, 53.450789 ]
+    		},
+    		"properties": {
+			"name"		: "Tropica Ambla",
+    			"visited"       : "false",
+    			"address"		: "The Netherlands",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Swimming"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ -4.000548, 40.744256 ]
+    		},
+    		"properties": {
+			"name"		: "Sanatorio de La Barranca",
+    			"visited"       : "false",
+    			"address"		: "Spain",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.4911, 50.74599 ]
+    		},
+    		"properties": {
+			"name"		: "Site de Bailleul",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Factory"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.87772, 50.5951 ]
+    		},
+    		"properties": {
+			"name"		: "Bowling Zenith",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Leisure"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.16155, 51.19165 ]
+    		},
+    		"properties": {
+			"name"		: "Casino Gompel",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Leisure"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.387015, 51.205812 ]
+    		},
+    		"properties": {
+			"name"		: "Zillion",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Leisure"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.615000, 50.879099 ]
+    		},
+    		"properties": {
+			"name"		: "Oude Spoorbrug",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Transport"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.086924, 50.485853 ]
+    		},
+    		"properties": {
+			"name"		: "Verlaten Tankstation",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.88487, 50.50176 ]
+    		},
+    		"properties": {
+			"name"		: "Villa BMW",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.370582, 51.311993 ]
+    		},
+    		"properties": {
+			"name"		: "Het Hoompje",
+    			"visited"       : "True",
+    			"address"		: "Sint Annastraat, Sint Anna Ter Muiden",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "Abandoned",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 9.3933, 45.78498 ]
+    		},
+    		"properties": {
+			"name"		: "Consonno",
+    			"visited"       : "false",
+    			"address"		: "Italy",
+	    		"description"	: "Casino",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Leisure"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 12.92824, 52.25945 ]
+    		},
+    		"properties": {
+			"name"		: "Beelitz Heilstatten",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 13.29125, 52.78692 ]
+    		},
+    		"properties": {
+			"name"		: "Heilstatten Grabowsee",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 6.131098, 50.730736 ]
+    		},
+    		"properties": {
+			"name"		: "Camp Hitfeld",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Military"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 6.188079, 50.759571 ]
+    		},
+    		"properties": {
+			"name"		: "Lost Tanks",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Military"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.950488, 50.783356 ]
+    		},
+    		"properties": {
+			"name"		: "Flight Academy",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Military"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.59862, 50.63195 ]
+    		},
+    		"properties": {
+			"name"		: "Fort de la Chartreuse",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Military"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.834374, 50.366411 ]
+    		},
+    		"properties": {
+			"name"		: "Chateau Marteau Longe",
+    			"visited"       : "false",
+    			"address"		: "Route de Floreffe 36-48, 5170 Profondeville",
+	    		"description"	: "Les Etapes De La Route",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Chateau"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.662688, 50.155753 ]
+    		},
+    		"properties": {
+			"name"		: "Hotel le Belvedere",
+    			"visited"       : "false",
+    			"address"		: "Rue du Hérou 61, 6660 Houffalize",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hotel"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.620058, 51.101589 ]
+    		},
+    		"properties": {
+			"name"		: "Home Mathilde Schroyens",
+    			"visited"       : "false",
+    			"address"		: "Marie-Joséstraat 27-39",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hospital"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.861839, 49.863340 ]
+    		},
+    		"properties": {
+			"name"		: "Les Dolimarts in Bohan",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "Vakantiedomein",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Leisure"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.504604, 50.984905 ]
+    		},
+    		"properties": {
+			"name"		: "Domein Hofstade openluchtzwembad",
+    			"visited"       : "false",
+    			"address"		: "1981 Zemst",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Swimming"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.891516, 50.855533 ]
+    		},
+    		"properties": {
+			"name"		: "Domein Hofstade openluchtzwembad",
+    			"visited"       : "false",
+    			"address"		: "Basculestraat 55, 8900 Ieper",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Swimming"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.585, 50.64681 ]
+    		},
+    		"properties": {
+			"name"		: "Ghost Bos Tunnel",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Transport"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.81556, 51.13319 ]
+    		},
+    		"properties": {
+			"name"		: "Lost in the woods",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "Cars in the wood",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Other"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 6.188079, 50.759571 ]
+    		},
+    		"properties": {
+			"name"		: "Lost tanks",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Other"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.52093, 49.79319 ]
+    		},
+    		"properties": {
+			"name"		: "Traction Sud",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "Cars in the wood",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Other"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.88487, 50.50176 ]
+    		},
+    		"properties": {
+			"name"		: "Villa BMW",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.433170, 51.233115 ]
+    		},
+    		"properties": {
+			"name"		: "Naval Boats",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Other"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.250661, 50.191517 ]
+    		},
+    		"properties": {
+			"name"		: "E.T. Phone Home",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Other"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.73689, 51.06604 ]
+    		},
+    		"properties": {
+			"name"		: "La Grue Jaune",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "Katoenspinnerij",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.21785, 50.83963 ]
+    		},
+    		"properties": {
+			"name"		: "Brouwerij Eylenbosch",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 9.3933, 45.78498 ]
+    		},
+    		"properties": {
+			"name"		: "Consonno",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Leisure"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 5.59163, 50.64455 ]
+    		},
+    		"properties": {
+			"name"		: "Colorful Nightmare",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Leisure"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 4.37426, 50.50692 ]
+    		},
+    		"properties": {
+			"name"		: "Depot Arsenal",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Military"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.204349, 51.204349 ]
+    		},
+    		"properties": {
+			"name"		: "Les Acacias / Villa Abeele",
+    			"visited"       : "true",
+    			"address"		: "Hogeweg 40-44, 8200 Sint-Andries",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Chateau"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.095357, 50.853829 ]
+    		},
+    		"properties": {
+			"name"		: "Dadipark",
+    			"visited"       : "true",
+    			"address"		: "Moorsledestraat 4, 8890 Moorslede",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "Demolished",
+	    		"type"			: "Leisure"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.203617, 51.224331 ]
+    		},
+    		"properties": {
+			"name"		: "Catharina Press NV",
+    			"visited"       : "true",
+    			"address"		: "Tempelhof 32, 8000 Brugge",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.221795, 51.223287 ]
+    		},
+    		"properties": {
+			"name"		: "Interbeton",
+    			"visited"       : "true",
+    			"address"		: "Krakeleweg, 8000 Brugge",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.73689, 51.06604 ]
+    		},
+    		"properties": {
+			"name"		: "Betoncentrale dampoort",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.270691, 51.208110 ]
+    		},
+    		"properties": {
+			"name"		: "Maison de la Douche",
+    			"visited"       : "false",
+    			"address"		: "Puienbroeklaan 36",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.359645, 51.203846 ]
+    		},
+    		"properties": {
+			"name"		: "Hotel Rostune",
+    			"visited"       : "false",
+    			"address"		: "Gentse Steenweg 82, Damme",
+	    		"description"	: "Broken down, but probably inhabited by Polish people",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Hotel"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.438663, 51.204234 ]
+    		},
+    		"properties": {
+			"name"		: "Abandoned trains Maldegem",
+    			"visited"       : "false",
+    			"address"		: "Bogaerdestraat 134, Maldegem",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Transport"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.701271, 51.142791 ]
+    		},
+    		"properties": {
+			"name"		: "Villa La Coursive",
+    			"visited"       : "false",
+    			"address"		: "Zeedijk Noordenwindhelling, Nieuwpoort",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.712960, 51.135207 ]
+    		},
+    		"properties": {
+			"name"		: "Home RTT",
+    			"visited"       : "false",
+    			"address"		: "Kinderlaan, Nieuwpoort",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.809423, 51.184849 ]
+    		},
+    		"properties": {
+			"name"		: "Villa Maury",
+    			"visited"       : "false",
+    			"address"		: "Leopoldlaan, Middelkerke",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.927347, 51.237352 ]
+    		},
+    		"properties": {
+			"name"		: "Duitse Flak batterij",
+    			"visited"       : "false",
+    			"address"		: "Spinoladijk, Oostende",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Military"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.929191, 51.236901 ]
+    		},
+    		"properties": {
+			"name"		: "Batterij Hundius",
+    			"visited"       : "false",
+    			"address"		: "Halvemaandijk, Oostende",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Military"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.070807, 51.294087 ]
+    		},
+    		"properties": {
+			"name"		: "Chateau d'eau",
+    			"visited"       : "false",
+    			"address"		: "Koninklijke baan, Wenduine",
+	    		"description"	: "Tussen de Koninklijke baan en de Nieuwe Rijksweg",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.005875, 51.187124 ]
+    		},
+    		"properties": {
+			"name"		: "Abdijhoeve",
+    			"visited"       : "false",
+    			"address"		: "Marktstraat 1, 8460 Oudenburg",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 2.986185, 51.160984 ]
+    		},
+    		"properties": {
+			"name"		: "Moulin d'électricité De Merelaar",
+    			"visited"       : "false",
+    			"address"		: "Warandestraat, 8470 Gistel",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.121364, 51.206247 ]
+    		},
+    		"properties": {
+			"name"		: "Pont inachevé",
+    			"visited"       : "false",
+    			"address"		: "Vaartdijk Zuid, Nieuwege",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "Demolished",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.189085, 51.165561 ]
+    		},
+    		"properties": {
+			"name"		: "Maison Nostra",
+    			"visited"       : "false",
+    			"address"		: "Emile Bethuynelaan 8, 8200 Brugge",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "Demolished",
+	    		"type"			: "Industry"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.763828, 51.003255 ]
+    		},
+    		"properties": {
+			"name"		: "???",
+    			"visited"       : "false",
+    			"address"		: "Heidestraat 7, Merelbeke",
+	    		"description"	: "In front of Heidestraat 7, Merelbeke",
+	    		"link"			: "",
+	    		"state"			: "Abandoned",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.643296, 50.995233 ]
+    		},
+    		"properties": {
+			"name"		: "???",
+    			"visited"       : "false",
+    			"address"		: "Nijverheidsstraat, De Pinte",
+	    		"description"	: "Somewhere in the Nijverheidsstraat, De Pinte",
+	    		"link"			: "",
+	    		"state"			: "Abandoned",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.572464, 51.178933 ]
+    		},
+    		"properties": {
+			"name"		: "???",
+    			"visited"       : "false",
+    			"address"		: "Wolstraat, Eeklo",
+	    		"description"	: "Somewhere in the Wolstraat, Eeklo",
+	    		"link"			: "",
+	    		"state"			: "Abandoned",
+	    		"type"			: "Houses"
+			}
+        },
+	{ 
+			"type": "Feature",
+    		"geometry": {
+    			"type":        "Point",
+    			"coordinates": [ 3.542801, 50.378467 ]
+    		},
+    		"properties": {
+    			"name"          : "Eurostar 3018",
+    			"visited"       : "false",
+    			"address"		: "",
+	    		"description"	: "",
+	    		"link"			: "",
+	    		"state"			: "",
+	    		"type"			: "Transport"
+			}
+        }
+    ]
+}
